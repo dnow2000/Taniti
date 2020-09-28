@@ -1,0 +1,76 @@
+/*locations description */
+.locations-description {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    line-height: 2.5;
+}
+
+
+
+
+
+/* locations images*/
+.locations {
+    display: grid;
+    justify-content: center;
+}
+
+.location-img {
+    padding-left: 25px; 
+   height: 330px;
+}
+
+.location {
+   position: relative;
+}
+
+.location figcaption {
+   text-align: center; 
+   position: absolute;
+   bottom: 50px;
+   left: 37px;
+   right: 0;
+   padding: 10px;
+   background-color: gray;
+   width: 86%;
+   color: white;
+}
+
+@media (min-width: 1025px) {
+    /* Top Attractions */
+ 
+    .locations {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+    }
+    
+    .location-img {
+        padding-left: 25px; 
+        height: 400px;
+        width: 450px;
+        display: block;
+    }
+    
+    .location {
+        position: relative;
+    }
+    
+    .location figcaption {
+        text-align: center; 
+        position: absolute;
+        bottom: 50px;
+        left: 41px;
+        right: 0;
+        padding: 10px;
+        background-color: gray;
+        width: 393px;
+        color: white;
+    }
+    
+
+
+
+}
